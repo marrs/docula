@@ -1,0 +1,87 @@
+{
+    "block": {
+        "headings": [
+            {
+                "underfix": "/^=+$/"
+            },
+            {
+                "underfix": "/^-+$/"
+            }
+        ],
+        "paragraph": [
+            {
+                "overfix": "\n",
+                "underfix": "\n"
+            },
+
+            {
+                "overfix": "BOF",
+                "underfix": "\n"
+            },
+
+            {
+                "overfix": "\n",
+                "underfix": "EOF"
+            }
+        ],
+
+        "preformat": {
+            "begin": "/^```[a-z\\-]?*$/",
+            "end": "```"
+        },
+
+        "blockstyle": {
+            "begin": "/^~~~[a-z\\-]?*$/",
+            "end": "~~~"
+        }
+    },
+    "inline": {
+        "underline": {
+            "prefix": "_",
+            "postfix": "_"
+        },
+        "doubleunderline": {
+            "prefix": "__",
+            "postfix": "__"
+        },
+
+        "tripleunderline": {
+            "prefix": "___",
+            "postfix": "___"
+        },
+
+        "bold": {
+            "prefix": "*",
+            "postfix": "*"
+        },
+
+        "italic": {
+            "prefix": "/",
+            "postfix": "/"
+        },
+
+        "strikethrough": {
+            "prefix": "-",
+            "postfix": "-"
+        },
+
+        "doublestrikethrough": {
+            "prefix": "=",
+            "postfix": "="
+        },
+
+        "triplestrikethrough": {
+            "prefix": "-=",
+            "postfix": "=-"
+        },
+
+        "code": {
+            "prefix": "`",
+            "postfix": "`"
+        },
+
+        "hyperlink": {
+            "prefix": ["http://", "https://"]
+        }
+    }
+}
